@@ -6,10 +6,10 @@
 - Use mvn jetty:run to launch jetty server on 9095 (http://127.0.0.1:9095/resource/all)
 
 **Actions**
-GET / (list of all counters)
-GET /name (get concrete counter)
-DELETE /name (delete counter)
-PUT /name (create or increment a counter) - PUT should be idempotent but in this case counter value is completely replaced with a new one > so maybe it's ok.
+- GET / (list of all counters)
+- GET /name (get concrete counter)
+- DELETE /name (delete counter)
+- PUT /name (create or increment a counter) - PUT should be idempotent but in this case counter value is completely replaced with a new one > so maybe it's ok.
 
 **Possible improvements :** 
 - db connection pooling;
